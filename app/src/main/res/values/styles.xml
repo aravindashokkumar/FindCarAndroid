@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyIcon" parent="Widget.AppCompat.ActionButton">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#555555</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:radius">20dp</item>
+        <item name="android:background">#5EBEEE</item>
+        <item name="android:padding">15sp</item>
+        <item name="android:layout_margin">30sp</item>
+        <item name="android:layout_weight">1.5</item>
+
+    </style>
+    <style name="dispTxt" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="imageLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_above">@+id/tableLayout</item>
+    </style>
+
+</resources>

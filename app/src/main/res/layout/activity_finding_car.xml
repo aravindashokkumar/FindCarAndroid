@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aravindproj.findcar.FindingCar">
+
+
+
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayoutListMain" android:background="@drawable/back2" android:layout_width="fill_parent" android:layout_height="70.0dip" android:baselineAligned="false">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayoutText" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="50.0">
+        <TextView android:textColor="#ff2c2c2c" android:id="@+id/name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:shadowColor="#ffffffff" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_weight="60.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayoutTextUnit" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="50.0">
+            <TextView android:textColor="#ff2c2c2c" android:gravity="right" android:id="@+id/rssi" android:layout_width="0.0dip" android:layout_height="fill_parent" android:shadowColor="#ffffffff" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_weight="50.0" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff2c2c2c" android:id="@+id/rssiUnit" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dbm" android:shadowColor="#ffffffff" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_weight="50.0" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLaytoutImage" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:baselineAligned="false" android:layout_weight="40.0">
+            <LinearLayout android:id="@+id/SigSha0" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha1" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha2" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha3" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha4" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha5" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha6" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha7" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha8" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/SigSha9" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_weight="1.0">
+                <LinearLayout android:id="@+id/Sig9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayoutListViewDivider1" android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:id="@+id/linearLayoutListViewDivider2" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_search"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/distanceText"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FindCar</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Find My Car!</string>
+    <string name="title_section3">Park Car</string>
+    <string name="title_section4">Location History</string>
+    <string name="title_section5">Help</string>
+    <string name="FindCar">Find My Car</string>
+    <string name="carLoc">Car Location</string>
+    <string name="stop_search">Stop Searching</string>
+    <string name="Lock_my_location">Park my Car</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="conditionforRetrieving">Are you underground?</string>
+    <string name="title_activity_finding_car">Finding your Car</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="gps_network_not_enabled">GPS Disabled</string>
+    <string name="Cancel">Cancel</string>
+    <string name="sorry">Sorry Not Found</string>
+    <string name="title">Range of the Device</string>
+    <string name="dbm">dBm</string>
+    <string name="title_activity_loc_history">Location History</string>
+    <string name="network_not_enabled">Internet Disconnected</string>
+    <string name="open_internet_settings">Settings</string>
+</resources>

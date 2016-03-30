@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/mapView" tools:context=".CarLocationSet"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+    </LinearLayout>
+
+
+    <!--<com.google.android.maps.MapView-->
+        <!--android:id="@+id/mapView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_weight="0.6"-->
+        <!--android:background="#00000000"-->
+        <!--android:apiKey="AIzaSyCB6zNpteYlXfdLng4nMrpwPlqll7nBozM"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get My Location"
+            android:id="@+id/locButton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>
